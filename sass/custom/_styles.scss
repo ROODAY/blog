@@ -65,6 +65,9 @@
 ul {
   list-style: circle inside;
 }
+a:hover, a:focus, a:selected {
+	text-decoration: none;
+}
 
 .hero {
 
