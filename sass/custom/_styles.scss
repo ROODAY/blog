@@ -1,6 +1,40 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+@keyframes roodaycolors {
+	0% {
+		color: #F9690E;
+	}
+	20% {
+		color: #8E44AD;
+	}
+	40% {
+		color: #1F3A93;
+	}
+	60%{
+		color: #81CFE0;
+	}
+	80%{
+		color: #D91E18;
+	}
+	100%{
+		color: #F9690E;
+	}
+}
+
 ul {
   list-style: circle inside;
+}
+
+.hero {
+
+  > h1 {
+  	-webkit-animation: roodaycolors 15s infinite linear; /* Chrome, Safari, Opera */ 
+    animation: roodaycolors 15s infinite linear;
+  }
+
+  > p {
+  	-webkit-animation: roodaycolors 15s infinite linear; /* Chrome, Safari, Opera */ 
+    animation: roodaycolors 15s infinite linear;
+  }
 }
