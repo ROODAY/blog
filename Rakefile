@@ -402,3 +402,15 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+
+desc "Generate website, deploy, and update source"
+task :blog => [:integrate, :generate, :deploy] do
+  puts "## Pushing Source Files "
+  system "git add -A"
+  message = "Source updated at #{Time.now.utc}"
+  puts "\n## Committing: #{message}"
+  system "git commit -m \"#{message}\""
+  puts "\n## Pushing Source"
+  Bundler.with_clean_env { system "git push origin master" }
+  puts "\n## Source updated"
+end
