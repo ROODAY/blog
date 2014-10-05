@@ -70,12 +70,12 @@ a:hover, a:focus, a:active {
 }
 
 .hero {
-	font-family: 'Merriweather Sans';
   > h1 {
   	-webkit-animation: roodaycolors 15s infinite linear;
   	-moz-animation: roodaycolors 15s infinite linear;
     animation: roodaycolors 15s infinite linear;
     font-size: 7rem;
+    font-family: 'Merriweather Sans';
   }
 
   > p {
@@ -83,6 +83,7 @@ a:hover, a:focus, a:active {
   	-moz-animation: roodaycolors 15s infinite linear;
     animation: roodaycolors 15s infinite linear;
     font-size: 3.5rem;
+    font-family: 'Merriweather Sans';
   }
 }
 
