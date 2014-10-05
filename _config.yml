@@ -102,3 +102,5 @@ facebook_like: true
 
 # LinkedIn
 linkedin_user: rooday
+
+emoji_dir: /images/emoji
