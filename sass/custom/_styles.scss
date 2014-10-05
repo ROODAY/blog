@@ -70,7 +70,7 @@ a:hover, a:focus, a:active {
 }
 
 .hero {
-
+	font-family: 'Merriweather Sans';
   > h1 {
   	-webkit-animation: roodaycolors 15s infinite linear;
   	-moz-animation: roodaycolors 15s infinite linear;
@@ -84,4 +84,16 @@ a:hover, a:focus, a:active {
     animation: roodaycolors 15s infinite linear;
     font-size: 3.5rem;
   }
+}
+
+article .meta {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.full-single-article p {
+	font-family: 'Ubuntu', sans-serif;
 }
