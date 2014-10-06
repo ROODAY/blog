@@ -201,6 +201,15 @@ in
 })(jQuery);
 </script-->
 
+<script>
+  $(function() {
+    if ($.browser.webkit) {
+        $(".hero>h1").css("background", "linear-gradient(304deg, #f4b350, #bf55ec, #3a539b, #81cfe0, #e74c3c);");
+        $(".hero>p").css("background", "linear-gradient(304deg, #f4b350, #bf55ec, #3a539b, #81cfe0, #e74c3c);");
+    }
+  });
+</script>
+
     <footer id="footer" class="her-row">
   <div class="container">
     <div class="row">
