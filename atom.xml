@@ -4,7 +4,7 @@
   <title><![CDATA[ROODAY]]></title>
   <link href="http://ROODAY.com/blog/atom.xml" rel="self"/>
   <link href="http://ROODAY.com/blog/"/>
-  <updated>2014-10-06T18:17:43-04:00</updated>
+  <updated>2014-10-06T18:19:44-04:00</updated>
   <id>http://ROODAY.com/blog/</id>
   <author>
     <name><![CDATA[Rudhra Raveendran]]></name>
@@ -29,7 +29,7 @@
     <id>http://ROODAY.com/blog/blog/2014/10/04/take-your-time</id>
     <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;Yesterday, whilst browsing my usual slew of subreddits, I happened upon probably the best octopus related, github compatible, static blogging framework: Octopress. In my excited frenzy to whip together something that I could call a blog, no matter the quality, I failed to notice some very key details in my process.</p>
 
-<!-- more -->
+<!--more-->
 
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The first step in setting up an Octopress blog, according to the framework&rsquo;s website, is to clone Octopress, and run the commands like <code>bundle install</code>, <code>rake install</code>, and <code>rake setup_github_pages</code>. All well and good, and what do you know, I have a blog up and running!</p>
