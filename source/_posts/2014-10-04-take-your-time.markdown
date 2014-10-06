@@ -12,7 +12,7 @@ categories:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Yesterday, whilst browsing my usual slew of subreddits, I happened upon probably the best octopus related, github compatible, static blogging framework: Octopress. In my excited frenzy to whip together something that I could call a blog, no matter the quality, I failed to notice some very key details in my process. 
 
-<!-- more -->
+<!--more-->
 
 &nbsp;&nbsp;&nbsp;&nbsp;The first step in setting up an Octopress blog, according to the framework's website, is to clone Octopress, and run the commands like ```bundle install```, ```rake install```, and ```rake setup_github_pages```. All well and good, and what do you know, I have a blog up and running!
 
