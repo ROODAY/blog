@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Hackathons | ROODAY]]></title>
-  <link href="http://ROODAY.com/blog/blog/categories/hackathons/atom.xml" rel="self"/>
+  <link href="http://ROODAY.com/blog/categories/hackathons/atom.xml" rel="self"/>
   <link href="http://ROODAY.com/blog/"/>
-  <updated>2014-10-06T18:19:44-04:00</updated>
+  <updated>2014-10-06T18:30:11-04:00</updated>
   <id>http://ROODAY.com/blog/</id>
   <author>
     <name><![CDATA[Rudhra Raveendran]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[LexHack: A Cautionary Tale of Ambition]]></title>
-    <link href="http://ROODAY.com/blog/blog/2014/10/05/lexhack-a-cautionary-tale-of-ambition/"/>
+    <link href="http://ROODAY.com/blog/lexhack-a-cautionary-tale-of-ambition"/>
     <updated>2014-10-05T22:09:15-04:00</updated>
-    <id>http://ROODAY.com/blog/blog/2014/10/05/lexhack-a-cautionary-tale-of-ambition</id>
+    <id>http://ROODAY.com/blog/lexhack-a-cautionary-tale-of-ambition</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>

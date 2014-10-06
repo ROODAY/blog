@@ -4,7 +4,7 @@
   <title><![CDATA[ROODAY]]></title>
   <link href="http://ROODAY.com/blog/atom.xml" rel="self"/>
   <link href="http://ROODAY.com/blog/"/>
-  <updated>2014-10-06T18:19:44-04:00</updated>
+  <updated>2014-10-06T18:30:11-04:00</updated>
   <id>http://ROODAY.com/blog/</id>
   <author>
     <name><![CDATA[Rudhra Raveendran]]></name>
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[LexHack: A Cautionary Tale of Ambition]]></title>
-    <link href="http://ROODAY.com/blog/blog/2014/10/05/lexhack-a-cautionary-tale-of-ambition/"/>
+    <link href="http://ROODAY.com/blog/lexhack-a-cautionary-tale-of-ambition"/>
     <updated>2014-10-05T22:09:15-04:00</updated>
-    <id>http://ROODAY.com/blog/blog/2014/10/05/lexhack-a-cautionary-tale-of-ambition</id>
+    <id>http://ROODAY.com/blog/lexhack-a-cautionary-tale-of-ambition</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Take Your Time.]]></title>
-    <link href="http://ROODAY.com/blog/blog/2014/10/04/take-your-time/"/>
+    <link href="http://ROODAY.com/blog/take-your-time"/>
     <updated>2014-10-04T21:38:56-04:00</updated>
-    <id>http://ROODAY.com/blog/blog/2014/10/04/take-your-time</id>
+    <id>http://ROODAY.com/blog/take-your-time</id>
     <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;Yesterday, whilst browsing my usual slew of subreddits, I happened upon probably the best octopus related, github compatible, static blogging framework: Octopress. In my excited frenzy to whip together something that I could call a blog, no matter the quality, I failed to notice some very key details in my process.</p>
 
 <!--more-->
