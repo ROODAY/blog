@@ -101,17 +101,11 @@ a {
 
 .hero {
   > h1 {
-  	-webkit-animation: roodaycolors 15s infinite linear;
-  	-moz-animation: roodaycolors 15s infinite linear;
-    animation: roodaycolors 15s infinite linear;
     font-size: 7rem;
     font-family: 'Merriweather Sans';
   }
 
   > p {
-  	-webkit-animation: roodaycolors 15s infinite linear;
-  	-moz-animation: roodaycolors 15s infinite linear;
-    animation: roodaycolors 15s infinite linear;
     font-size: 3.5rem;
     font-family: 'Merriweather Sans';
   }
@@ -171,4 +165,9 @@ article .meta a:hover {
 	background-size: 1000% 1000%;
 	-webkit-animation: roodaygradient 15s ease infinite;
 	-webkit-background-clip: text;
+}
+.roodaycolors {
+	-webkit-animation: roodaycolors 15s infinite linear;
+  	-moz-animation: roodaycolors 15s infinite linear;
+    animation: roodaycolors 15s infinite linear;
 }
