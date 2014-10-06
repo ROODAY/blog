@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programming | ROODAY]]></title>
   <link href="http://ROODAY.com/blog/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://ROODAY.com/blog/"/>
-  <updated>2014-10-05T20:28:44-04:00</updated>
+  <updated>2014-10-06T17:43:53-04:00</updated>
   <id>http://ROODAY.com/blog/</id>
   <author>
     <name><![CDATA[Rudhra Raveendran]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[LexHack: A Cautionary Tale of Ambition]]></title>
+    <link href="http://ROODAY.com/blog/blog/2014/10/05/lexhack-a-cautionary-tale-of-ambition/"/>
+    <updated>2014-10-05T22:09:15-04:00</updated>
+    <id>http://ROODAY.com/blog/blog/2014/10/05/lexhack-a-cautionary-tale-of-ambition</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Take Your Time.]]></title>
