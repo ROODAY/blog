@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Patience | ROODAY]]></title>
   <link href="http://ROODAY.com/blog/categories/patience/atom.xml" rel="self"/>
   <link href="http://ROODAY.com/blog/"/>
-  <updated>2014-10-06T20:32:26-04:00</updated>
+  <updated>2014-10-06T22:28:07-04:00</updated>
   <id>http://ROODAY.com/blog/</id>
   <author>
     <name><![CDATA[Rudhra Raveendran]]></name>
@@ -25,29 +25,31 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;The first step in setting up an Octopress blog, according to the framework&rsquo;s website, is to clone Octopress, and run the commands like <code>bundle install</code>, <code>rake install</code>, and <code>rake setup_github_pages</code>. All well and good, and what do you know, I have a blog up and running!</p>
 
-<p><img class="<a" src="href="http://i.imgur.com/9yxAMwX.png">http://i.imgur.com/9yxAMwX.png</a>&#8221; width=&#8221;640&#8221; height=&#8221;360&#8221; title=&#8221;A Default Octopress Blog&#8221; ></p>
+<p>{% img <a href="http://i.imgur.com/9yxAMwX.png">http://i.imgur.com/9yxAMwX.png</a> 640 360 A Default Octopress Blog%}</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Not bad, and it only took about 5 minutes! But such a short time led me to make mistake after mistake, as I foolishly believed that every step and every customization would happen in the same timeframe. In retrospect, it really did take very little time to make changes, but I was just being stupid. You see, Octopress has three folders that contain files relating to your blog. Firstly, there is the source folder. <em>That</em> is where you would make your changes, and honestly, it would seem pretty intuitive. Then, there is the public folder, which in turn contains another folder, by default called github, which contained the compiled version of the source folder. And finally, there is the deploy folder, which is basically the public folder, but with a .git folder to sync with github pages.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;However, when I saw <a href="https://github.com/sevenadrian/MediumFox">MediumFox</a>, the beautiful theme by Adrian Artiles that this blog is currently using, I pounced on the installing themes link like a starving cheetah would a gazelle. But with a lot less blood and dying gazelle noises. Ok it honestly was more like clicking on a link, but it sure felt like I was devouring a gazelle. Anyways, after adding MediumFox as a git submodule and installing, I quickly deployed to my blog&rsquo;s github repo (which is a project repo, this is a fairly big detail) and marveled in my now responsive blog. But the 300.00 milliseconds of marveling was cut short by a few eyesores, namely the missing images that abounded throughout the site.</p>
 
-<p><img class="<a" src="href="http://i.imgur.com/MiTa57P.png">http://i.imgur.com/MiTa57P.png</a>&#8221; width=&#8221;640&#8221; height=&#8221;360&#8221; title=&#8221;Something&rsquo;s not right&hellip;&#8221; ></p>
+<p>{% img <a href="http://i.imgur.com/MiTa57P.png">http://i.imgur.com/MiTa57P.png</a> 640 360 Something&rsquo;s not right&hellip; %}</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;To Mr. Artiles&#8217; credit, it looked pretty good despite the errors. But little folded pages are not what I wanted for my blog, no siree, and so I set out to fix such a travesty in the same rapid manner I employed while setting up Octopress. After a hasty glance at MediumFox&rsquo;s readme, I gleaned something about a folder called &ldquo;source&rdquo;. Hmm&hellip; That&rsquo;s probably the <code>.source</code> folder in the MediumFox folder! Right? Nope. But sadly that didn&rsquo;t occur to me at the time.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Regardless of which folder I entered, the error was the same: MediumFox was referencing rooday.com/images, rather than rooday.com/blog/images. After making the necessary changes to the source files, I ran <code>rake generate</code>, but as you probably guessed, nothing changed. So, the next logical step was to run <code>rake generate</code> another 13 or so times. A bakers dozen of repeating commands may not really be logical, but it seemed to be the only way, as it couldn&rsquo;t <em>possibly</em> be <em>my</em> error. Re-reading Octopress&#8217; configuration guide (which should&rsquo;ve been the first step) revealed a root option for Jekyll to use on relative URLs. Of course, that didn&rsquo;t work either. So I emailed Mr. Artiles and called it a day. If you&rsquo;re reading this man, I&rsquo;m sorry for bothering you!</p>
 
-<p><blockquote><p>Is there a way to change what mediumfox thinks is the root directory? My octopress blog is a project page/subdirectory of my main site, and a lot of things don&rsquo;t load as they are trying to be loaded from the root folder.</p><footer><strong>Me</strong> <cite>An Unnecessary Email</cite></footer></blockquote></p>
+<p>{% blockquote Me, An Unnecessary Email %}
+Is there a way to change what mediumfox thinks is the root directory? My octopress blog is a project page/subdirectory of my main site, and a lot of things don&rsquo;t load as they are trying to be loaded from the root folder.
+{% endblockquote %}</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Early the next morning, I pondered on the issue. After some deep thinking and some chocolate milk, I got an idea. &ldquo;Let&rsquo;s just replace your normal site with the blog, and bypass the relative URL issue!&rdquo; So that happened, and the thing actually worked, and looked basically as it does now.</p>
 
-<p><img class="<a" src="href="http://i.imgur.com/DoDsMq0.jpg">http://i.imgur.com/DoDsMq0.jpg</a>&#8221; width=&#8221;640&#8221; height=&#8221;360&#8221; title=&#8221;Just in case I changed the theme&#8221; ></p>
+<p>{% img <a href="http://i.imgur.com/DoDsMq0.jpg">http://i.imgur.com/DoDsMq0.jpg</a> 640 360 Just in case I changed the theme %}</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;About an hour or so later, I became displeased with such an extreme compromise, so I put my <a href="http://rooday.com/">old site</a> back, deleted everything relating to the blog, and started from scratch. You&rsquo;d think that somewhere along all this deep thinking, I would&rsquo;ve realized that I need to go through this process slowly, and carefully look at what I needed to edit. To make a 45 minute story into a 32 word sentence, I kept editing the wrong files in the wrong folder and ended up deleting and recreating my blog repo 3 times.</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;It was only after all that and another impulsive email to <a href="https://github.com/imathis">Brandon Mathis</a>, creator of Octopress, that I discovered my folly. I had been editing the wrong source folder! When MediumFox&rsquo;s readme mentioned a source folder, it meant the source folder in the blog, not the one specific to the theme. You&rsquo;re probably thinking, &ldquo;Rudy, you&rsquo;re stupid&rdquo;. And you&rsquo;d be right! At least in this case&hellip;I think&hellip; And that&rsquo;s where the title comes into play. Messing with Octopress and making a blog reminded me of a very important rule: <strong>Take your time!</strong> Had I made sure to change the right files, I would&rsquo;ve saved myself a ton of headache, and in the long run, a lot of time. Did I really have to write out a 5580 character markdown file to get this point across? No, but I sure as hell needed a first post on my blog. Thanks for sticking around! And please take this token of my appreciation:</p>
 
-<p><img class="<a" src="href="http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg">http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg</a>&#8221; width=&#8221;420&#8221; height=&#8221;420&#8221; title=&#8221;Some Reddit Silver for you troubles&#8221; ></p>
+<p>{% img <a href="http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg">http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg</a> 420 420 Some Reddit Silver for you troubles%}</p>
 ]]></content>
   </entry>
   
