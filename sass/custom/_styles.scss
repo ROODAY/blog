@@ -157,6 +157,14 @@ article .meta a:hover {
 	&:hover {
 		opacity: 1;
 	}
+
+	img {
+		border: none;
+		width: 64px;
+		height: 64px;
+		margin-top: 9px;
+		margin-left: 9px;
+	}
 }
 
 .roodaygradient {
