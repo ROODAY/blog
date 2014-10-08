@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Patience | ROODAY]]></title>
   <link href="http://ROODAY.com/blog/categories/patience/atom.xml" rel="self"/>
   <link href="http://ROODAY.com/blog/"/>
-  <updated>2014-10-08T15:41:36-04:00</updated>
+  <updated>2014-10-08T19:15:08-04:00</updated>
   <id>http://ROODAY.com/blog/</id>
   <author>
     <name><![CDATA[Rudhra Raveendran]]></name>
@@ -37,7 +37,9 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Regardless of which folder I entered, the error was the same: MediumFox was referencing rooday.com/images, rather than rooday.com/blog/images. After making the necessary changes to the source files, I ran <code>rake generate</code>, but as you probably guessed, nothing changed. So, the next logical step was to run <code>rake generate</code> another 13 or so times. A bakers dozen of repeating commands may not really be logical, but it seemed to be the only way, as it couldn&rsquo;t <em>possibly</em> be <em>my</em> error. Re-reading Octopress&#8217; configuration guide (which should&rsquo;ve been the first step) revealed a root option for Jekyll to use on relative URLs. Of course, that didn&rsquo;t work either. So I emailed Mr. Artiles and called it a day. If you&rsquo;re reading this man, I&rsquo;m sorry for bothering you!</p>
 
-<p><blockquote><p>Is there a way to change what mediumfox thinks is the root directory? My octopress blog is a project page/subdirectory of my main site, and a lot of things don&rsquo;t load as they are trying to be loaded from the root folder.</p><footer><strong>Me</strong> <cite>An Unnecessary Email</cite></footer></blockquote></p>
+<p>{% blockquote Me, An Unnecessary Email %}
+Is there a way to change what mediumfox thinks is the root directory? My octopress blog is a project page/subdirectory of my main site, and a lot of things don&rsquo;t load as they are trying to be loaded from the root folder.
+{% endblockquote %}</p>
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Early the next morning, I pondered on the issue. After some deep thinking and some chocolate milk, I got an idea. &ldquo;Let&rsquo;s just replace your normal site with the blog, and bypass the relative URL issue!&rdquo; So that happened, and the thing actually worked, and looked basically as it does now.</p>
 
