@@ -52,7 +52,7 @@
 
     <div id="home-page">
 	<div id="cover">
-		<img src="/blog/images/METROODAY.jpg" alt="ROODAY" class="img-rounded" height="250" width="250">
+		<img id="coverimg" src="/blog/images/METROODAY.jpg" alt="ROODAY" class="img-rounded" height="250" width="250">
 		<h1>Rudhra &#8220;ROODAY&#8221; Raveendran</h1>
 	</div>
 	<div class="home-field container">
@@ -69,6 +69,11 @@
     	</p>
  	</div>
 </div>
+
+<script>
+	var photo = Math.round(Math.random) + 1;
+	$("#coverimg").attr('src', "/images/cover/" + photo + ".jpg");
+</script>
     <footer id="footer" class="her-row">
   <div class="container">
     <div class="row">

@@ -53,9 +53,14 @@ Programming and other things. about me I'm Rudhra Raveendran, a junior at Lincol
 
     <div class="home-page">
   <div class="hero">
-    <img src="/blog/images/METROODAY.jpg" alt="ROODAY" class="img-rounded" height="250" width="250">
+    <img id="coverimg" src="/blog/images/METROODAY.jpg" alt="ROODAY" class="img-rounded" height="250" width="250">
 <h1>ROODAY</h1>
 <p class="hidden-xs">Programming and other things.</p>
+
+<script>
+	var photo = Math.round(Math.random) + 1;
+	$("#coverimg").attr('src', "/images/cover/" + photo + ".jpg");
+</script>
   </div>
 
   <div class="home-field">
