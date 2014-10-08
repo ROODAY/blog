@@ -55,8 +55,7 @@ Programming and other things. about me I'm Rudhra Raveendran, a junior at Lincol
   <div class="hero">
     <img src="/blog/images/METROODAY.jpg" alt="ROODAY" class="img-rounded" height="250" width="250">
 <h1>ROODAY</h1>
-<p>Programming and other things.</p>
-
+<p class="hidden-xs">Programming and other things.</p>
   </div>
 
   <div class="home-field">
@@ -218,20 +217,6 @@ in
     $(".hero>h1").addClass("roodaycolors");
     $(".hero>p").addClass("roodaycolors");
   }
-  var listener = new window.keypress.Listener();
-  listener.sequence_combo("up up down down left right left right b a enter", function() {
-        var s = document.createElement('script');
-        s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js');
-        document.body.appendChild(s);
-  }, true);
-  listener.sequence_combo("a b a c a b b", function() {
-        var i,s,ss = ['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];
-        for(i=0; i!=ss.length; i++) {
-          s = document.createElement('script');
-          s.src = ss[i];
-          document.body.appendChild(s);
-        } void(0);
-  }, true);
 </script>
     <footer id="footer" class="her-row">
   <div class="container">
