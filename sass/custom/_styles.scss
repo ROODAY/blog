@@ -183,3 +183,14 @@ article .meta a:hover {
   	-moz-animation: roodaycolors 15s infinite linear;
     animation: roodaycolors 15s infinite linear;
 }
+
+#cover {
+
+	> img {
+		border-radius: 250px;
+	}
+
+	> h1 {
+		font-family: 'Merriweather Sans';
+	}
+}
