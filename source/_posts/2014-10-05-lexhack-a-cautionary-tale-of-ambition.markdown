@@ -13,11 +13,11 @@ categories:
 
 <!--more-->
 
-{% img http://i.imgur.com/kbRUDxJ.jpg 400 400 LexHack %}
+<a href="http://i.imgur.com/kbRUDxJ.jpg"><img src="http://i.imgur.com/kbRUDxJ.jpg" alt="LexHack" width="400px" height="400px"></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Before heading into the event, I made a group with some friends of mine, called [WWPOL](https://github.com/WWPOL), as going solo would be an unnecessarily hard challenge for my first time. We had already worked together on a project for the JS13k competition the previous month, called [Earth Invader](https://github.com/WWPOL/Earth-Invader). (We placed 88th out of 129, but we're still proud of the game itself) Once we figured out which of us were able to attend LexHack, we set out on thinking of an idea so that we wouldn't enter unprepared.
 
-{% img https://raw.githubusercontent.com/WWPOL/Earth-Invader/gh-pages/screenshots/3.png 640 360 Earth Invader %}
+<a href="https://raw.githubusercontent.com/WWPOL/Earth-Invader/gh-pages/screenshots/3.png"><img src="https://raw.githubusercontent.com/WWPOL/Earth-Invader/gh-pages/screenshots/3.png" alt="Earth Invader" width="640px" height="360px"></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;We quickly settled on the idea of making a turn based, online, two player battleship game using [Phaser.js](http://phaser.io/) and [Socket.io](http://socket.io/), called [RTShips](https://github.com/WWPOL/RTShips). At first, it seemed like a great idea. We'd use Phaser to do all the rendering and dealing with sprites, which would free up our time to worry with the more important things like synchronization and game logic. And for synchronization, we'd be able to use Socket.io to deal with sending turn data to each player, so we'd really only have to spend time on the game itself. Or so we thought.
 
@@ -33,8 +33,8 @@ categories:
 
 &nbsp;&nbsp;&nbsp;&nbsp;Fast forward another 5 or so hours, and there's barely any progress, except for the whack-a-mole game. During one of our deep, reflective breaks, we realized that we had endured the five stages of grief during our failed development of RTShips, and we all laughed it off and basically said "Screw it!" With all the time we lost, we just accepted the fact and tried to enjoy the rest of the day. (Which we did) Because of this, we did more travelling to other groups to see their projects than work on our own, and ended up submitting Whack-a-Ship, as the original game couldn't be salvaged, and Pong was uncomplete due to syncing errors. (But [here's](https://github.com/ROODAY/Jong) its spiritual successor, with 4 players)
 
-{% img http://i.imgur.com/4dpKk6A.png 640 360 Jong %}
+<a href="http://i.imgur.com/4dpKk6A.png"><img src="http://i.imgur.com/4dpKk6A.png" alt="Jong" width="640px" height="360px"></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;We didn't win anything of course, due to the huge mistakes that were made, and not to mention the insanely good projects that were submitted, the first place one being an etch-a-sketch built off an arduino that saved the sketches to a .stl file that could be 3D printed. (Mind = Blown) But despite that, we did learn a lesson from LexHack: **Don't Get Too Ambitious!** The biggest problem with RTShips was that we expected to do so much more than was actually possible in 12 hours. It was our first hackathon, none of us really knew how to use Phaser.js or Socket.io very well, and we were two men short. Had we chosen a simpler project and commited to it, even something as simple as Pong, we might've placed! Ambition is a good thing to have, but overestimating your skill will most likely end with a pretty bad result. It may not be as bad as Whack-a-Ship, but still, pretty bad.
 
-{% img http://i.imgur.com/IX6Zapx.png 640 360 The Almighty Whack A Ship %}
+<a href="http://i.imgur.com/IX6Zapx.png"><img src="http://i.imgur.com/IX6Zapx.png" alt="The Almighty Whack A Ship" width="640px" height="360px"></a>
