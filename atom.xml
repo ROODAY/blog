@@ -4,7 +4,7 @@
   <title><![CDATA[ROODAY]]></title>
   <link href="http://ROODAY.com/blog/atom.xml" rel="self"/>
   <link href="http://ROODAY.com/blog/"/>
-  <updated>2014-10-08T19:22:48-04:00</updated>
+  <updated>2014-10-08T19:38:35-04:00</updated>
   <id>http://ROODAY.com/blog/</id>
   <author>
     <name><![CDATA[Rudhra Raveendran]]></name>
@@ -86,7 +86,7 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;It was only after all that and another impulsive email to <a href="https://github.com/imathis">Brandon Mathis</a>, creator of Octopress, that I discovered my folly. I had been editing the wrong source folder! When MediumFox&rsquo;s readme mentioned a source folder, it meant the source folder in the blog, not the one specific to the theme. You&rsquo;re probably thinking, &ldquo;Rudy, you&rsquo;re stupid&rdquo;. And you&rsquo;d be right! At least in this case&hellip;I think&hellip; And that&rsquo;s where the title comes into play. Messing with Octopress and making a blog reminded me of a very important rule: <strong>Take your time!</strong> Had I made sure to change the right files, I would&rsquo;ve saved myself a ton of headache, and in the long run, a lot of time. Did I really have to write out a 5580 character markdown file to get this point across? No, but I sure as hell needed a first post on my blog. Thanks for sticking around! And please take this token of my appreciation:</p>
 
-<p><a href="http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg"><img src="http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg" alt="Some Reddit Silver for you troubles" width="640px" height="360px"></a></p>
+<p><a href="http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg"><img src="http://img.pandawhale.com/93002-reddit-silver-medal-meme-funny-B9d2.jpeg" alt="Some Reddit Silver for you troubles" width="400px" height="400px"></a></p>
 ]]></content>
   </entry>
   
