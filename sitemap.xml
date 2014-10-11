@@ -3,6 +3,14 @@
   
   
   <url>
+    <loc>http://ROODAY.com/blog/storytime</loc>
+    
+    <lastmod>2014-10-07T21:54:52-04:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://ROODAY.com/blog/lexhack-a-cautionary-tale-of-ambition</loc>
     
     <lastmod>2014-10-05T22:09:15-04:00</lastmod>
@@ -21,28 +29,28 @@
   
   <url>
     <loc>http://ROODAY.com/blog/blog/archives/</loc>
-    <lastmod>2014-10-08T19:38:35-04:00</lastmod>
+    <lastmod>2014-10-11T15:38:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://ROODAY.com/blog/about/</loc>
-    <lastmod>2014-10-08T19:38:35-04:00</lastmod>
+    <lastmod>2014-10-11T15:38:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://ROODAY.com/blog/</loc>
-    <lastmod>2014-10-08T19:38:35-04:00</lastmod>
+    <lastmod>2014-10-11T15:38:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://ROODAY.com/blog/posts/</loc>
-    <lastmod>2014-10-08T19:38:35-04:00</lastmod>
+    <lastmod>2014-10-11T15:38:35-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
