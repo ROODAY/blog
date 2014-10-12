@@ -195,3 +195,10 @@ article .meta a:hover {
 		font-family: 'Merriweather Sans';
 	}
 }
+
+::selection {
+  background: #C663F0; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #C663F0; /* Gecko Browsers */
+}
