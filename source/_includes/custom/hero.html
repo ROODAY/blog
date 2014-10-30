@@ -1,5 +1,15 @@
 <img id="coverimg" src="/images/METROODAY.jpg" alt="ROODAY" class="img-rounded" height="250" width="250">
 <h1>{{ site.title }}</h1>
-<p class="hidden-xs">{{ site.subtitle }}</p>
-
+<p class="hidden-xs">{{ site.subtitle }} <span id="wordcount"></span></p>
+<script>
+	$.ajax({
+		type: "GET",
+		url: "http://nanowrimo.org/wordcount_api/wc/rooday",
+		datatype: "xml",
+		success: function(xml) {
+			var x = xml.getElementsByTagName("wc");
+			$("h1").html(x[0].getElementsByTagName("user_wordcount")[0].childNodes[0].nodeValue);
+		}
+	});
+</script>
 {% include custom/cover.html %}
