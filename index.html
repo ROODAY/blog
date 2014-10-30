@@ -55,8 +55,18 @@ Programming and other things. about me I'm Rudhra Raveendran, a junior at Lincol
   <div class="hero">
     <img id="coverimg" src="/blog/images/METROODAY.jpg" alt="ROODAY" class="img-rounded" height="250" width="250">
 <h1>ROODAY</h1>
-<p class="hidden-xs">Programming and other things.</p>
-
+<p class="hidden-xs">Programming and other things. <span id="wordcount"></span></p>
+<script>
+	$.ajax({
+		type: "GET",
+		url: "http://nanowrimo.org/wordcount_api/wc/rooday",
+		datatype: "xml",
+		success: function(xml) {
+			var x = xml.getElementsByTagName("wc");
+			$("h1").html(x[0].getElementsByTagName("user_wordcount")[0].childNodes[0].nodeValue);
+		}
+	});
+</script>
 <script>
 	var photo = Math.round(Math.random() * 3);
 	$("#coverimg").attr('src', "/blog/images/covers/" + photo + ".jpg");
